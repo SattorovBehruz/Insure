@@ -1,0 +1,264 @@
+/* karla 700, 400,  */
+/* karla-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    src:
+      url('./fonts/karlamedium.woff2') format('woff2'),
+      url('./fonts/karlamedium.woff') format('woff'),
+  
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/karlabold.woff2') format('woff2'),
+      url('./fonts/karlabold.woff') format('woff'),
+  
+  }
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	display: block;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 19px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.nav-item-link {
+  color: #837d88;
+  font-size: 13px;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.nav-plans {
+  text-align: center;
+  color: #2c2830;
+font-size: 13px;
+letter-spacing: 1.5px;
+padding: 12px 20px 13px;
+width: 146px;
+border: 1.5px solid #2c2830;
+background: #fff;
+}
+
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+	padding: 0 20px;
+    position: relative;
+}
+.hero {
+    position: relative;
+    padding: 96px 0 136px;
+    background-color: #2D2641;
+ 
+}  
+.hero-section{
+    height: 600px;
+
+}
+.hero-line {
+    margin: 0 0 63px;
+    width: 150px;
+    height: 1px;
+    background-color:#fff;
+}
+.hero-title {
+    margin: 0 0 16px;
+    width: 540px;
+}
+.hero-intitle {
+    margin: 0;
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+.hero-desc {
+    margin: 0 0 24px;
+    width: 540px;
+}
+.hero-indesc {
+    margin: 0;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hero-link-btn {
+    display: inline-block;
+    padding: 13px 28.5px 12px;
+    text-decoration: none;
+    width: 146px;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    border: 1.5px solid #FFF;
+}
+.hero-img{
+    position: absolute;
+    background-image: url(../images/family-img.png);
+    width: 540px;
+    height: 650px;
+    top: 0;
+    right: 0;
+    left: 735px;
+    margin: 0 auto;
+}
+
+
+.different-title {
+	color: #2c2830;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 64px;
+}
+
+.different-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	margin-right: 294px;
+}
+
+.snappy-img {
+	margin: 32px;
+}
+
+.snappy-title {
+	margin: 0;
+	color: #2c2830;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.deck {
+	margin-right: 32px;
+	width: 350px;
+	color: #837d88;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.more-articl {
+	width: 1110px;
+	height: 250px;
+	background-image: url(../images/icon/chiziq.svg);
+	background-repeat: no-repeat;
+	background-position: calc(100%) calc(-10%);
+	background-color: #2d2641;
+}
+
+.more-articl {
+    display: flex;
+	align-items: center;
+}
+
+.more-title {
+    width: 475px;
+    height: 112px;
+	margin: 0;
+}
+
+.more-strong {
+	color: #fff;
+	font-size: 56px;
+}
+
+.work-link {
+	margin-top: 20px;
+	align-items: center;
+}
+  
+  .site-footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-image: url("./images/footerimg.svg");
+    background-repeat: no-repeat;
+  }
+  .footer-start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social-list  {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .footer-links-list {
+    display: flex;
+    align-items: center;
+    
+  }
+  .links-item {
+    margin-right: 172px;
+  }
+  
+
+
+
